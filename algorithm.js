@@ -56,7 +56,7 @@ produceList = (cancelledAccounts,subscribers) => {
 }
 
 // returns the result of the produceList function with 
-// the result of the didPay function as the second argument
+// the result of the didPay function as the first argument and the subscribers array as the 2nd
 console.log(produceList((didPay(invoices)),subscribers));
 
 

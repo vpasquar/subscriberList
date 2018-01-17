@@ -1,13 +1,13 @@
 const subscribers = [
   {firstName: "Kobe", lastName: "Bryant", accountNum: 1},
-  {firstName: "Bambi", lastName: "Deer", accountNum: 9},
-  {firstName: "Frank", lastName: "Test", accountNum: 8},
+   {firstName: "Jennifer",  lastName: "Test", accountNum: 2},
+   {firstName: "Khloe", lastName: "Test", accountNum: 3},
   {firstName: "Lebron", lastName: "James", accountNum: 4},
   {firstName: "Dude",  lastName: "Test", accountNum: 5},
   {firstName: "Eric", lastName: "Cartman", accountNum: 6},
   {firstName: "Kyle", lastName: "Test", accountNum: 7},
-  {firstName: "Khloe", lastName: "Test", accountNum: 3},
-  {firstName: "Jennifer",  lastName: "Test", accountNum: 2},
+   {firstName: "Frank", lastName: "Test", accountNum: 8},
+  {firstName: "Bambi", lastName: "Deer", accountNum: 9},
   {firstName: "Serena",  lastName: "Williams", accountNum: 10},
 ];
 
