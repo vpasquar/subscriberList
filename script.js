@@ -4,7 +4,7 @@ const invoices = [
   {invoiceNum: 700, accountNum: 3, paid: true},
   {invoiceNum: 604, accountNum: 4, paid: false},
   {invoiceNum: 105, accountNum: 5, paid: true},
-  {invoiceNum: 200, accountNum: 6, paid: true},
+  {invoiceNum: 200, accountNum: 6, paid: false},
   {invoiceNum: 001, accountNum: 7, paid: true},
   {invoiceNum: 002, accountNum: 8, paid: true},
   {invoiceNum: 003, accountNum: 9, paid: false},
