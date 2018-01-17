@@ -1,4 +1,4 @@
-var invoices = [
+const invoices = [
   {invoiceNum: 245, accountNum: 1, paid: true},
   {invoiceNum: 312, accountNum: 2, paid: false},
   {invoiceNum: 700, accountNum: 3, paid: true},
@@ -10,7 +10,7 @@ var invoices = [
   {invoiceNum: 003, accountNum: 9, paid: false},
   {invoiceNum: 004, accountNum: 10, paid: true}
 ]
-var subscribers = [
+const subscribers = [
   {firstName: "Kobe", lastName: "Bryant", accountNum: 1},
   {firstName: "Bambi", lastName: "Deer", accountNum: 2},
   {firstName: "Frank", lastName: "Dude", accountNum: 3},
