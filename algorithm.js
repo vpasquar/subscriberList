@@ -36,7 +36,7 @@ didPay = (invoices) => {
 }	    
 
 // list takes in the array from didPay
-// and subscribers and produced a list of cancelled accounts and names 
+// and subscribers and produces a list of cancelled accounts and names 
 produceList = (cancelledAccounts,subscribers) => {
 	 const cancelledList = []
 	 subscribers.map(function(s) { //iterate over subscriber list
