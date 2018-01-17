@@ -9,7 +9,7 @@ const invoices = [
   {invoiceNum: 002, accountNum: 8, paid: true},
   {invoiceNum: 003, accountNum: 9, paid: false},
   {invoiceNum: 004, accountNum: 10, paid: true}
-]
+];
 const subscribers = [
   {firstName: "Kobe", lastName: "Bryant", accountNum: 1},
   {firstName: "Bambi", lastName: "Deer", accountNum: 9},
@@ -21,7 +21,7 @@ const subscribers = [
   {firstName: "Khloe", lastName: "Test", accountNum: 3},
   {firstName: "Jennifer",  lastName: "Test", accountNum: 2},
   {firstName: "Serena",  lastName: "Williams", accountNum: 10},
-]
+];
  
 $("#clear").on("click", function(e) {
 	e.preventDefault();

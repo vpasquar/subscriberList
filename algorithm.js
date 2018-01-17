@@ -9,19 +9,19 @@ const invoices = [
   {invoiceNum: 002, accountNum: 8, paid: true},
   {invoiceNum: 003, accountNum: 9, paid: false},
   {invoiceNum: 004, accountNum: 10, paid: true}
-]
+];
 const subscribers = [
   {firstName: "Kobe", lastName: "Bryant", accountNum: 1},
-  {firstName: "Bambi", lastName: "Deer", accountNum: 2},
-  {firstName: "Frank", lastName: "Dude", accountNum: 3},
+  {firstName: "Bambi", lastName: "Deer", accountNum: 9},
+  {firstName: "Frank", lastName: "Test", accountNum: 8},
   {firstName: "Lebron", lastName: "James", accountNum: 4},
-  {firstName: "Dude",  lastName: "Man", accountNum: 5},
+  {firstName: "Dude",  lastName: "Test", accountNum: 5},
   {firstName: "Eric", lastName: "Cartman", accountNum: 6},
   {firstName: "Kyle", lastName: "Test", accountNum: 7},
-  {firstName: "Khloe", lastName: "Test", accountNum: 8},
-  {firstName: "Jennifer",  lastName: "Test", accountNum: 9},
+  {firstName: "Khloe", lastName: "Test", accountNum: 3},
+  {firstName: "Jennifer",  lastName: "Test", accountNum: 2},
   {firstName: "Serena",  lastName: "Williams", accountNum: 10},
-]
+];
 
 // didPay returns an array of account nums that are in deliquency
 didPay = (invoices) => {
@@ -32,7 +32,7 @@ didPay = (invoices) => {
 	            cancelledAccounts.push(i.accountNum);
 	        }
 	    });
-	    return cancelledAccounts
+	    return cancelledAccounts;
 }	    
 
 // list takes in the array from didPay
@@ -50,7 +50,7 @@ produceList = (cancelledAccounts,subscribers) => {
 	 		cancelledList.push(cancelledSubscriber);
 	 	}
 	 })
-	 return cancelledList
+	 return cancelledList;
 }
 
 // returns the result of the produceList function with 
