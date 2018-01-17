@@ -1,15 +1,3 @@
-const invoices = [
-  {invoiceNum: 245, accountNum: 1, paid: true},
-  {invoiceNum: 312, accountNum: 2, paid: false},
-  {invoiceNum: 700, accountNum: 3, paid: true},
-  {invoiceNum: 604, accountNum: 4, paid: false},
-  {invoiceNum: 105, accountNum: 5, paid: true},
-  {invoiceNum: 200, accountNum: 6, paid: false},
-  {invoiceNum: 001, accountNum: 7, paid: true},
-  {invoiceNum: 002, accountNum: 8, paid: true},
-  {invoiceNum: 003, accountNum: 9, paid: false},
-  {invoiceNum: 004, accountNum: 10, paid: true}
-];
 const subscribers = [
   {firstName: "Kobe", lastName: "Bryant", accountNum: 1},
   {firstName: "Bambi", lastName: "Deer", accountNum: 9},
@@ -22,6 +10,20 @@ const subscribers = [
   {firstName: "Jennifer",  lastName: "Test", accountNum: 2},
   {firstName: "Serena",  lastName: "Williams", accountNum: 10},
 ];
+
+const invoices = [
+  {invoiceNum: 245, accountNum: 1, paid: true},
+  {invoiceNum: 312, accountNum: 2, paid: false},
+  {invoiceNum: 700, accountNum: 3, paid: true},
+  {invoiceNum: 604, accountNum: 4, paid: false},
+  {invoiceNum: 105, accountNum: 5, paid: true},
+  {invoiceNum: 200, accountNum: 6, paid: false},
+  {invoiceNum: 001, accountNum: 7, paid: true},
+  {invoiceNum: 002, accountNum: 8, paid: true},
+  {invoiceNum: 003, accountNum: 9, paid: false},
+  {invoiceNum: 004, accountNum: 10, paid: true}
+];
+
 
 // didPay returns an array of account nums that are in deliquency
 didPay = (invoices) => {
